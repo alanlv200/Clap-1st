@@ -14,6 +14,8 @@
 		06C9ECFE1C674FEC009D3E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C9ECFC1C674FEC009D3E4B /* LaunchScreen.storyboard */; };
 		06C9ED091C674FEC009D3E4B /* ClapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9ED081C674FEC009D3E4B /* ClapTests.swift */; };
 		06C9ED141C674FEC009D3E4B /* ClapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9ED131C674FEC009D3E4B /* ClapUITests.swift */; };
+		06C9ED231C675056009D3E4B /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C9ED211C675056009D3E4B /* clap-button.png */; };
+		06C9ED241C675056009D3E4B /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06C9ED221C675056009D3E4B /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		06C9ED0F1C674FEC009D3E4B /* ClapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C9ED131C674FEC009D3E4B /* ClapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapUITests.swift; sourceTree = "<group>"; };
 		06C9ED151C674FEC009D3E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C9ED211C675056009D3E4B /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clap-button.png"; path = "../../../素材/2-中級素材/Clap素材/clap-button.png"; sourceTree = "<group>"; };
+		06C9ED221C675056009D3E4B /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = "../../../素材/2-中級素材/Clap素材/clap.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		06C9ECF21C674FEC009D3E4B /* Clap */ = {
 			isa = PBXGroup;
 			children = (
+				06C9ED211C675056009D3E4B /* clap-button.png */,
+				06C9ED221C675056009D3E4B /* clap.wav */,
 				06C9ECF31C674FEC009D3E4B /* AppDelegate.swift */,
 				06C9ECF51C674FEC009D3E4B /* ViewController.swift */,
 				06C9ECF71C674FEC009D3E4B /* Main.storyboard */,
@@ -229,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C9ED241C675056009D3E4B /* clap.wav in Resources */,
 				06C9ECFE1C674FEC009D3E4B /* LaunchScreen.storyboard in Resources */,
 				06C9ECFB1C674FEC009D3E4B /* Assets.xcassets in Resources */,
 				06C9ECF91C674FEC009D3E4B /* Main.storyboard in Resources */,
+				06C9ED231C675056009D3E4B /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
